@@ -1,0 +1,28 @@
+--------------------------------------------
+Version: 1.0.0		--Created by StaceyBee--
+Created: 22/2/22
+Name: Bee's Panic Button
+
+--[[ INTRO]]--
+
+Script bugged and left you stuck? Reset a resource at a bad time? Can't see your character for some reason? Any other annoying situation that you may get yourself into while testing, messing around with scripting, or while just experiencing a bug?
+Say no more fam.
+
+This is a very simple piece of code that will reset your character and vehicle, it will also do a few other things to ensure you are able to continue without having to restart your game.
+Works with a command or button presses on a controller.
+
+--[[ INSTALL ]]--
+
+Extract folder into your resource folder, ensure panic in server.cfg.
+
+--[[ SETTINGS ]]--
+
+To change the settings open client.lua and edit the panic table at the top of script.
+By default typing "/panic" into chat or holding LB&RB and pressing A with a controller will activate panic button.
+
+Use:			--<<	Use Script.
+Cmd:			--<<	Command to activate panic button.
+B:			--<<	Controller buttons that activate panic button.
+Use:			--<<	Use controller buttons to activate.
+Hold:			--<<	Buttons to hold.
+Press:			--<<	Buttons to press.
