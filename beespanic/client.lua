@@ -89,7 +89,7 @@ Citizen.CreateThread(function()
 end)
 
 RegisterCommand(panic.cmd, function()
-	TriggerEvent("Panic")
+	TriggerEvent("beeanic")
 end)
 
 RegisterNetEvent("beepanic")
